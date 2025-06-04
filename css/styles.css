@@ -51,6 +51,8 @@ li {
   background-color: #262423 !important;
 }
 
+
+
 .navbar-brand,
 .nav-link {
   color: #d0c5c0;
@@ -95,10 +97,11 @@ h3 {
 }
 
 p {
-  font-family: 'arial', sans-serif;
+  font-family: 'Minecraft', sans-serif; 
   text-align: justify;
   font-size: 1rem;
 }
+
 
 .card {
   background-color: rgb(47, 45, 44);
