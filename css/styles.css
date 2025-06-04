@@ -256,3 +256,18 @@ footer small {
     min-height: 200px;
   }
 }
+button:hover {
+  cursor: pointer;
+}
+button {
+  background-color: #48c344;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #3a9b36;
+}
