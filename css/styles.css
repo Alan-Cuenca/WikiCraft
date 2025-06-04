@@ -97,10 +97,17 @@ h3 {
 }
 
 p {
-  font-family: 'Minecraft', sans-serif; 
-  text-align: justify;
-  font-size: 1rem;
+  font-family: 'Minecraft', sans-serif;  /* Fuente personalizada */
+  text-align: justify;  /* Justifica el texto */
+  font-size: 1rem;  /* Tamaño de la fuente */
+  color: #e0e0e0;  /* Color de texto suave */
+  line-height: 1.6;  /* Mayor interlineado para mejor lectura */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);  /* Sombra sutil en el texto */
+  word-spacing: 1px;  /* Espaciado entre palabras */
+  margin-bottom: 1.5rem;  /* Espacio debajo de los párrafos */
+  padding: 0.5rem 1rem;  /* Espaciado interno alrededor del texto */
 }
+
 
 
 .card {
