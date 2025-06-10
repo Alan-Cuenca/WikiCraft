@@ -3,7 +3,7 @@ export async function fetchMinecraftNews(apiKey) {
   const response = await fetch(endpoint);
   const data = await response.json();
   
-  const excludedKeywords = ['movie', 'theaters', 'lego', 'ai', 'windows'];
+  const excludedKeywords = ['movie', 'theaters', 'windows'];
 
   const filteredArticles = data.articles.filter(article => {
     const title = article.title.toLowerCase();
