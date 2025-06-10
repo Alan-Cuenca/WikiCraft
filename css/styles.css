@@ -155,8 +155,8 @@ footer small {
   font-family: 'Minecraft', sans-serif;
   font-size: 16px;
   color: #ffffff;
-  background: linear-gradient(to bottom, #52a535 0%, #2a641c 100%);
-  border: 2px solid #3d6b0b;
+  background: linear-gradient(to bottom, #35a58d 0%, #1c645d 100%);
+  border: 2px solid #0b406b;
   box-shadow: 0 2px #2a4a07, 0 4px #2a4a07;
   text-align: center;
   text-decoration: none;
@@ -279,5 +279,14 @@ button {
   transition: background-color 0.3s ease;
 }
 button:hover {
-  background-color: #3a9b36;
+  background-color: #369b96;
+}
+
+
+/* Efecto hover */
+.btn-minecraft:hover {
+  background: linear-gradient(to bottom, #5ebf00 0%, #216500 100%);
+  transform: translateY(-2px); /* Da un pequeño efecto de elevación al botón */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra adicional para darle más prominencia */
+  transition: all 0.3s ease;
 }
